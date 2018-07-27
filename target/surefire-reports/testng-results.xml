@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="40" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3586551" started-at="2018-07-17T13:10:03Z" finished-at="2018-07-17T14:09:49Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="3586551" started-at="2018-07-17T13:10:03Z" finished-at="2018-07-17T14:09:49Z">
+      <class name="com.automation.bms.Gigya_Brazil">
+        <test-method status="PASS" signature="Gigya_Brazil_Registartion()[pri:0, instance:com.automation.bms.Gigya_Brazil@17550481]" name="Gigya_Brazil_Registartion" duration-ms="135752" started-at="2018-07-17T18:42:21Z" finished-at="2018-07-17T18:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Brazil_Registartion -->
+        <test-method status="PASS" signature="Gigya_Brazil_Login()[pri:0, instance:com.automation.bms.Gigya_Brazil@17550481]" name="Gigya_Brazil_Login" duration-ms="134148" started-at="2018-07-17T18:44:37Z" finished-at="2018-07-17T18:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Brazil_Login -->
+        <test-method status="PASS" signature="Gigya_Brazil_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Brazil@17550481]" name="Gigya_Brazil_Edit_Profile" duration-ms="36163" started-at="2018-07-17T18:46:51Z" finished-at="2018-07-17T18:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Brazil_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Brazil_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Brazil@17550481]" name="Gigya_Brazil_Change_Password" duration-ms="44378" started-at="2018-07-17T18:47:27Z" finished-at="2018-07-17T18:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Brazil_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Brazil -->
+      <class name="com.automation.bms.Gigya_Latam">
+        <test-method status="PASS" signature="Gigya_Latam_Registartion()[pri:0, instance:com.automation.bms.Gigya_Latam@62043840]" name="Gigya_Latam_Registartion" duration-ms="150756" started-at="2018-07-17T19:17:02Z" finished-at="2018-07-17T19:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Latam_Registartion -->
+        <test-method status="PASS" signature="Gigya_Latam_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Latam@62043840]" name="Gigya_Latam_Edit_Profile" duration-ms="37317" started-at="2018-07-17T19:19:33Z" finished-at="2018-07-17T19:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Latam_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Latam_Login()[pri:0, instance:com.automation.bms.Gigya_Latam@62043840]" name="Gigya_Latam_Login" duration-ms="134178" started-at="2018-07-17T19:20:10Z" finished-at="2018-07-17T19:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Latam_Login -->
+        <test-method status="PASS" signature="Gigya_Latam_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Latam@62043840]" name="Gigya_Latam_Change_Password" duration-ms="43366" started-at="2018-07-17T19:22:24Z" finished-at="2018-07-17T19:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Latam_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Latam -->
+      <class name="com.automation.bms.Gigya_Belgium_EN">
+        <test-method status="PASS" signature="Gigya_Belgium_EN_Registartion()[pri:0, instance:com.automation.bms.Gigya_Belgium_EN@5315b42e]" name="Gigya_Belgium_EN_Registartion" duration-ms="102555" started-at="2018-07-17T19:23:08Z" finished-at="2018-07-17T19:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_EN_Registartion -->
+        <test-method status="PASS" signature="Gigya_Belgium_EN_Login()[pri:0, instance:com.automation.bms.Gigya_Belgium_EN@5315b42e]" name="Gigya_Belgium_EN_Login" duration-ms="137780" started-at="2018-07-17T19:24:50Z" finished-at="2018-07-17T19:27:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_EN_Login -->
+        <test-method status="PASS" signature="Gigya_Belgium_EN_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Belgium_EN@5315b42e]" name="Gigya_Belgium_EN_Edit_Profile" duration-ms="49584" started-at="2018-07-17T19:27:08Z" finished-at="2018-07-17T19:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_EN_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Belgium_EN_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Belgium_EN@5315b42e]" name="Gigya_Belgium_EN_Change_Password" duration-ms="43913" started-at="2018-07-17T19:27:57Z" finished-at="2018-07-17T19:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_EN_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Belgium_EN -->
+      <class name="com.automation.bms.Gigya_Canada_FR">
+        <test-method status="PASS" signature="Gigya_Canada_FR_Registartion()[pri:0, instance:com.automation.bms.Gigya_Canada_FR@180bc464]" name="Gigya_Canada_FR_Registartion" duration-ms="69147" started-at="2018-07-17T18:52:53Z" finished-at="2018-07-17T18:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_FR_Registartion -->
+        <test-method status="PASS" signature="Gigya_Canada_FR_Login()[pri:0, instance:com.automation.bms.Gigya_Canada_FR@180bc464]" name="Gigya_Canada_FR_Login" duration-ms="135163" started-at="2018-07-17T18:54:02Z" finished-at="2018-07-17T18:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_FR_Login -->
+        <test-method status="PASS" signature="Gigya_Canada_FR_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Canada_FR@180bc464]" name="Gigya_Canada_FR_Edit_Profile" duration-ms="39272" started-at="2018-07-17T18:56:17Z" finished-at="2018-07-17T18:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_FR_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Canada_FR_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Canada_FR@180bc464]" name="Gigya_Canada_FR_Change_Password" duration-ms="48337" started-at="2018-07-17T18:56:56Z" finished-at="2018-07-17T18:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_FR_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Canada_FR -->
+      <class name="com.automation.bms.Gigya_Austria">
+        <test-method status="PASS" signature="Gigya_Austria_DocChecker_Login()[pri:0, instance:com.automation.bms.Gigya_Austria@246ae04d]" name="Gigya_Austria_DocChecker_Login" duration-ms="38601" started-at="2018-07-17T19:16:23Z" finished-at="2018-07-17T19:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Austria_DocChecker_Login -->
+      </class> <!-- com.automation.bms.Gigya_Austria -->
+      <class name="com.automation.bms.Gigya_Canada_EN">
+        <test-method status="PASS" signature="Gigya_Canada_EN_Registartion()[pri:0, instance:com.automation.bms.Gigya_Canada_EN@735f7ae5]" name="Gigya_Canada_EN_Registartion" duration-ms="66308" started-at="2018-07-17T18:48:11Z" finished-at="2018-07-17T18:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_EN_Registartion -->
+        <test-method status="PASS" signature="Gigya_Canada_EN_Login()[pri:0, instance:com.automation.bms.Gigya_Canada_EN@735f7ae5]" name="Gigya_Canada_EN_Login" duration-ms="133153" started-at="2018-07-17T18:49:18Z" finished-at="2018-07-17T18:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_EN_Login -->
+        <test-method status="PASS" signature="Gigya_Canada_EN_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Canada_EN@735f7ae5]" name="Gigya_Canada_EN_Edit_Profile" duration-ms="39864" started-at="2018-07-17T18:51:31Z" finished-at="2018-07-17T18:52:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_EN_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Canada_EN_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Canada_EN@735f7ae5]" name="Gigya_Canada_EN_Change_Password" duration-ms="42094" started-at="2018-07-17T18:52:11Z" finished-at="2018-07-17T18:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Canada_EN_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Canada_EN -->
+      <class name="com.automation.bms.ContactUs">
+        <test-method status="PASS" signature="Contact_Us_Positive()[pri:0, instance:com.automation.bms.ContactUs@13fee20c]" name="Contact_Us_Positive" duration-ms="94098" started-at="2018-07-17T18:40:03Z" finished-at="2018-07-17T18:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_Us_Positive -->
+        <test-method status="PASS" signature="Contact_Us_Negative()[pri:0, instance:com.automation.bms.ContactUs@13fee20c]" name="Contact_Us_Negative" duration-ms="43892" started-at="2018-07-17T18:41:37Z" finished-at="2018-07-17T18:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_Us_Negative -->
+      </class> <!-- com.automation.bms.ContactUs -->
+      <class name="com.automation.bms.Gigya_Belgium_FR">
+        <test-method status="PASS" signature="Gigya_Belgium_FR_Registartion()[pri:0, instance:com.automation.bms.Gigya_Belgium_FR@2ef9b8bc]" name="Gigya_Belgium_FR_Registartion" duration-ms="101144" started-at="2018-07-17T19:28:41Z" finished-at="2018-07-17T19:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_FR_Registartion -->
+        <test-method status="PASS" signature="Gigya_Belgium_FR_Login()[pri:0, instance:com.automation.bms.Gigya_Belgium_FR@2ef9b8bc]" name="Gigya_Belgium_FR_Login" duration-ms="143993" started-at="2018-07-17T19:30:23Z" finished-at="2018-07-17T19:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_FR_Login -->
+        <test-method status="PASS" signature="Gigya_Belgium_FR_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Belgium_FR@2ef9b8bc]" name="Gigya_Belgium_FR_Edit_Profile" duration-ms="50536" started-at="2018-07-17T19:32:47Z" finished-at="2018-07-17T19:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_FR_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Belgium_FR_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Belgium_FR@2ef9b8bc]" name="Gigya_Belgium_FR_Change_Password" duration-ms="44431" started-at="2018-07-17T19:33:37Z" finished-at="2018-07-17T19:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_FR_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Belgium_FR -->
+      <class name="com.automation.bms.Gigya_Denmark">
+        <test-method status="PASS" signature="Gigya_Denmark_Registartion()[pri:0, instance:com.automation.bms.Gigya_Denmark@1324409e]" name="Gigya_Denmark_Registartion" duration-ms="104969" started-at="2018-07-17T18:57:45Z" finished-at="2018-07-17T18:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Denmark_Registartion -->
+        <test-method status="PASS" signature="Gigya_Denmark_Login()[pri:0, instance:com.automation.bms.Gigya_Denmark@1324409e]" name="Gigya_Denmark_Login" duration-ms="138722" started-at="2018-07-17T18:59:30Z" finished-at="2018-07-17T19:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Denmark_Login -->
+        <test-method status="PASS" signature="Gigya_Denmark_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Denmark@1324409e]" name="Gigya_Denmark_Edit_Profile" duration-ms="75498" started-at="2018-07-17T19:01:48Z" finished-at="2018-07-17T19:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Denmark_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Denmark_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Denmark@1324409e]" name="Gigya_Denmark_Change_Password" duration-ms="74970" started-at="2018-07-17T19:03:04Z" finished-at="2018-07-17T19:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Denmark_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Denmark -->
+      <class name="com.automation.bms.Gigya_Germany">
+        <test-method status="PASS" signature="Gigya_Germany_DocChecker_Login()[pri:0, instance:com.automation.bms.Gigya_Germany@2c6a3f77]" name="Gigya_Germany_DocChecker_Login" duration-ms="231201" started-at="2018-07-17T19:04:19Z" finished-at="2018-07-17T19:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Germany_DocChecker_Login -->
+        <test-method status="PASS" signature="Gigya_Germany_Registartion()[pri:0, instance:com.automation.bms.Gigya_Germany@2c6a3f77]" name="Gigya_Germany_Registartion" duration-ms="128451" started-at="2018-07-17T19:08:10Z" finished-at="2018-07-17T19:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Germany_Registartion -->
+        <test-method status="PASS" signature="Gigya_Germany_Login()[pri:0, instance:com.automation.bms.Gigya_Germany@2c6a3f77]" name="Gigya_Germany_Login" duration-ms="124480" started-at="2018-07-17T19:10:19Z" finished-at="2018-07-17T19:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Germany_Login -->
+        <test-method status="PASS" signature="Gigya_Germany_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Germany@2c6a3f77]" name="Gigya_Germany_Edit_Profile" duration-ms="123129" started-at="2018-07-17T19:12:23Z" finished-at="2018-07-17T19:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Germany_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Germany_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Germany@2c6a3f77]" name="Gigya_Germany_Change_Password" duration-ms="117155" started-at="2018-07-17T19:14:26Z" finished-at="2018-07-17T19:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Germany_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Germany -->
+      <class name="com.automation.bms.Gigya_Belgium_NL">
+        <test-method status="PASS" signature="Gigya_Belgium_NL_Registartion()[pri:0, instance:com.automation.bms.Gigya_Belgium_NL@5d624da6]" name="Gigya_Belgium_NL_Registartion" duration-ms="99021" started-at="2018-07-17T19:34:22Z" finished-at="2018-07-17T19:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_NL_Registartion -->
+        <test-method status="PASS" signature="Gigya_Belgium_NL_Login()[pri:0, instance:com.automation.bms.Gigya_Belgium_NL@5d624da6]" name="Gigya_Belgium_NL_Login" duration-ms="139134" started-at="2018-07-17T19:36:01Z" finished-at="2018-07-17T19:38:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_NL_Login -->
+        <test-method status="PASS" signature="Gigya_Belgium_NL_Edit_Profile()[pri:0, instance:com.automation.bms.Gigya_Belgium_NL@5d624da6]" name="Gigya_Belgium_NL_Edit_Profile" duration-ms="40465" started-at="2018-07-17T19:38:20Z" finished-at="2018-07-17T19:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_NL_Edit_Profile -->
+        <test-method status="PASS" signature="Gigya_Belgium_NL_Change_Password()[pri:0, instance:com.automation.bms.Gigya_Belgium_NL@5d624da6]" name="Gigya_Belgium_NL_Change_Password" duration-ms="48928" started-at="2018-07-17T19:39:00Z" finished-at="2018-07-17T19:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gigya_Belgium_NL_Change_Password -->
+      </class> <!-- com.automation.bms.Gigya_Belgium_NL -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

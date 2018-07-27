@@ -1,0 +1,34 @@
+
+[Jul 26 2018, 13:40:38][INFO]: **************************************************************************************************************
+[Jul 26 2018, 13:40:38][INFO]: *****************************************  EXECUTION DETAILS  ************************************************
+[Jul 26 2018, 13:40:38][INFO]: **************************************************************************************************************
+[Jul 26 2018, 13:40:38][INFO]: Test Execution Started At : 26-Jul-2018 13:40:38
+[Jul 26 2018, 13:40:38][INFO]: Browser : chrome
+[Jul 26 2018, 13:40:38][INFO]: Environment URL : https://www.bms-staging.com
+[Jul 26 2018, 13:40:38][INFO]: **************************************************************************************************************
+[Jul 26 2018, 13:40:38][INFO]: 
+[Jul 26 2018, 13:40:38][INFO]: -------------------------------------------------------------------------------------------------------------
+[Jul 26 2018, 13:40:38][INFO]: Testcase PipeLine_Positive Started
+[Jul 26 2018, 13:40:41][INFO]: Execution Started for Test : PipeLine_Sorting
+[Jul 26 2018, 13:41:04][INFO]: URL opened : https://reimagine:work4-patients@www.bms-staging.com/researchers-and-partners/in-the-pipeline.html
+[Jul 26 2018, 13:41:17][PASS]: PipeLine_Positive1- Disease Area Sorting AscendingOrder sorting filters should be Selected by Default- Disease Area Sorting, AscendingOrder sorting filters are Selected by Default-PASS
+[Jul 26 2018, 13:41:27][PASS]: PipeLine_Positive 1- Modility Phase Disease Area filters should be Selected by Default- Modility, Phase, Disease Area filters are Selected by Default-PASS
+[Jul 26 2018, 13:42:05][PASS]: PipeLine_Filters 1- Should be Unchecked the above filters - Filters are unchecked successfully -PASS
+[Jul 26 2018, 13:42:14][PASS]: PipeLine_Positive 1-When checked the smallmolecule, corresponding filter data should appear-When checked the smallmolecule, corresponding filter data is appeared-PASS
+[Jul 26 2018, 13:42:20][PASS]: PipeLine_Positive 1-When UnChecked the biologic, corresponding filter data should not be appear-When UnChecked the biologic, corresponding filter data not appeared-PASS
+[Jul 26 2018, 13:42:26][PASS]: PipeLine_Positive 1-When UnChecked the 2-phaseii, corresponding filter data should not be appear-When UnChecked the 2-phaseii, corresponding filter data not appeared-PASS
+[Jul 26 2018, 13:42:32][PASS]: PipeLine_Positive 1-When checked the 1-phasei, corresponding filter data should appear-When checked the 1-phasei, corresponding filter data is appeared-PASS
+[Jul 26 2018, 13:42:39][PASS]: PipeLine_Positive 1-When UnChecked the 3-phaseiii, corresponding filter data should not be appear-When UnChecked the 3-phaseiii, corresponding filter data not appeared-PASS
+[Jul 26 2018, 13:42:44][PASS]: PipeLine_Positive 1-When checked the m-marketedproductdevelopment, corresponding filter data should appear-When checked the m-marketedproductdevelopment, corresponding filter data is appeared-PASS
+[Jul 26 2018, 13:42:50][PASS]: PipeLine_Positive 1-When checked the immunoscience, corresponding filter data should appear-When checked the immunoscience, corresponding filter data is appeared-PASS
+[Jul 26 2018, 13:42:55][PASS]: PipeLine_Positive 1-When checked the cardiovascular, corresponding filter data should appear-When checked the cardiovascular, corresponding filter data is appeared-PASS
+[Jul 26 2018, 13:43:02][PASS]: PipeLine_Positive 1-When UnChecked the fibroticdiseases, corresponding filter data should not be appear-When UnChecked the fibroticdiseases, corresponding filter data not appeared-PASS
+[Jul 26 2018, 13:43:07][PASS]: PipeLine_Positive 1-When checked the oncology, corresponding filter data should appear-When checked the oncology, corresponding filter data is appeared-PASS
+[Jul 26 2018, 13:43:12][FAIL]: PipeLine_Positive2- Disease Area Sorting AscendingOrder sorting filters should not be Selected by Default- Disease Area Sorting, AscendingOrder sorting filters should not be Selected by Default-FAIL
+[Jul 26 2018, 13:43:18][FAIL]: PipeLine_Positive 2- Modility Phase Disease Area filters should not be Selected by Default- Modility, Phase, Disease Area filters should not be Selected by Default-FAIL
+[Jul 26 2018, 13:43:18][INFO]: -------------------------------------------------------------------------------------------------------------
+[Jul 26 2018, 13:43:18][INFO]: Testcase PipeLine_Positive Completed
+[Jul 26 2018, 13:43:18][INFO]: **************************************************************************************************************
+[Jul 26 2018, 13:43:18][INFO]: Execution Completed At : 26-Jul-2018 13:43:18
+[Jul 26 2018, 13:43:18][INFO]: Execution Time :: 0 Hours, 2 minutes, 40 seconds.
+[Jul 26 2018, 13:43:18][INFO]: **************************************************************************************************************

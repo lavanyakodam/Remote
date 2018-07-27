@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.automation.library.TestNGListener"/>
+    <listener class-name="com.automation.library.RetryListenerClass"/>
+  </listeners>
+  <test thread-count="3" name="ChromeTest(failed)">
+    <classes>
+      <class name="com.automation.bms.PipeLine">
+        <methods>
+          <include name="PipeLine_Positive"/>
+        </methods>
+      </class> <!-- com.automation.bms.PipeLine -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

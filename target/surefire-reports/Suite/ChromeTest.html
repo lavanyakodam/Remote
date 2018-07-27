@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 17 18:40:03 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>3586 seconds (3586551 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.bms.ContactUs.Contact_Us_Negative()'><b>Contact_Us_Negative</b><br>Test class: com.automation.bms.ContactUs</td>
+<td></td>
+<td>43</td>
+<td>com.automation.bms.ContactUs@13fee20c</td></tr>
+<tr>
+<td title='com.automation.bms.ContactUs.Contact_Us_Positive()'><b>Contact_Us_Positive</b><br>Test class: com.automation.bms.ContactUs</td>
+<td></td>
+<td>94</td>
+<td>com.automation.bms.ContactUs@13fee20c</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Austria.Gigya_Austria_DocChecker_Login()'><b>Gigya_Austria_DocChecker_Login</b><br>Test class: com.automation.bms.Gigya_Austria</td>
+<td></td>
+<td>38</td>
+<td>com.automation.bms.Gigya_Austria@246ae04d</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_EN.Gigya_Belgium_EN_Change_Password()'><b>Gigya_Belgium_EN_Change_Password</b><br>Test class: com.automation.bms.Gigya_Belgium_EN</td>
+<td></td>
+<td>43</td>
+<td>com.automation.bms.Gigya_Belgium_EN@5315b42e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_EN.Gigya_Belgium_EN_Edit_Profile()'><b>Gigya_Belgium_EN_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Belgium_EN</td>
+<td></td>
+<td>49</td>
+<td>com.automation.bms.Gigya_Belgium_EN@5315b42e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_EN.Gigya_Belgium_EN_Login()'><b>Gigya_Belgium_EN_Login</b><br>Test class: com.automation.bms.Gigya_Belgium_EN</td>
+<td></td>
+<td>137</td>
+<td>com.automation.bms.Gigya_Belgium_EN@5315b42e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_EN.Gigya_Belgium_EN_Registartion()'><b>Gigya_Belgium_EN_Registartion</b><br>Test class: com.automation.bms.Gigya_Belgium_EN</td>
+<td></td>
+<td>102</td>
+<td>com.automation.bms.Gigya_Belgium_EN@5315b42e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_FR.Gigya_Belgium_FR_Change_Password()'><b>Gigya_Belgium_FR_Change_Password</b><br>Test class: com.automation.bms.Gigya_Belgium_FR</td>
+<td></td>
+<td>44</td>
+<td>com.automation.bms.Gigya_Belgium_FR@2ef9b8bc</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_FR.Gigya_Belgium_FR_Edit_Profile()'><b>Gigya_Belgium_FR_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Belgium_FR</td>
+<td></td>
+<td>50</td>
+<td>com.automation.bms.Gigya_Belgium_FR@2ef9b8bc</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_FR.Gigya_Belgium_FR_Login()'><b>Gigya_Belgium_FR_Login</b><br>Test class: com.automation.bms.Gigya_Belgium_FR</td>
+<td></td>
+<td>143</td>
+<td>com.automation.bms.Gigya_Belgium_FR@2ef9b8bc</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_FR.Gigya_Belgium_FR_Registartion()'><b>Gigya_Belgium_FR_Registartion</b><br>Test class: com.automation.bms.Gigya_Belgium_FR</td>
+<td></td>
+<td>101</td>
+<td>com.automation.bms.Gigya_Belgium_FR@2ef9b8bc</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_NL.Gigya_Belgium_NL_Change_Password()'><b>Gigya_Belgium_NL_Change_Password</b><br>Test class: com.automation.bms.Gigya_Belgium_NL</td>
+<td></td>
+<td>48</td>
+<td>com.automation.bms.Gigya_Belgium_NL@5d624da6</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_NL.Gigya_Belgium_NL_Edit_Profile()'><b>Gigya_Belgium_NL_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Belgium_NL</td>
+<td></td>
+<td>40</td>
+<td>com.automation.bms.Gigya_Belgium_NL@5d624da6</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_NL.Gigya_Belgium_NL_Login()'><b>Gigya_Belgium_NL_Login</b><br>Test class: com.automation.bms.Gigya_Belgium_NL</td>
+<td></td>
+<td>139</td>
+<td>com.automation.bms.Gigya_Belgium_NL@5d624da6</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Belgium_NL.Gigya_Belgium_NL_Registartion()'><b>Gigya_Belgium_NL_Registartion</b><br>Test class: com.automation.bms.Gigya_Belgium_NL</td>
+<td></td>
+<td>99</td>
+<td>com.automation.bms.Gigya_Belgium_NL@5d624da6</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Brazil.Gigya_Brazil_Change_Password()'><b>Gigya_Brazil_Change_Password</b><br>Test class: com.automation.bms.Gigya_Brazil</td>
+<td></td>
+<td>44</td>
+<td>com.automation.bms.Gigya_Brazil@17550481</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Brazil.Gigya_Brazil_Edit_Profile()'><b>Gigya_Brazil_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Brazil</td>
+<td></td>
+<td>36</td>
+<td>com.automation.bms.Gigya_Brazil@17550481</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Brazil.Gigya_Brazil_Login()'><b>Gigya_Brazil_Login</b><br>Test class: com.automation.bms.Gigya_Brazil</td>
+<td></td>
+<td>134</td>
+<td>com.automation.bms.Gigya_Brazil@17550481</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Brazil.Gigya_Brazil_Registartion()'><b>Gigya_Brazil_Registartion</b><br>Test class: com.automation.bms.Gigya_Brazil</td>
+<td></td>
+<td>135</td>
+<td>com.automation.bms.Gigya_Brazil@17550481</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_EN.Gigya_Canada_EN_Change_Password()'><b>Gigya_Canada_EN_Change_Password</b><br>Test class: com.automation.bms.Gigya_Canada_EN</td>
+<td></td>
+<td>42</td>
+<td>com.automation.bms.Gigya_Canada_EN@735f7ae5</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_EN.Gigya_Canada_EN_Edit_Profile()'><b>Gigya_Canada_EN_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Canada_EN</td>
+<td></td>
+<td>39</td>
+<td>com.automation.bms.Gigya_Canada_EN@735f7ae5</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_EN.Gigya_Canada_EN_Login()'><b>Gigya_Canada_EN_Login</b><br>Test class: com.automation.bms.Gigya_Canada_EN</td>
+<td></td>
+<td>133</td>
+<td>com.automation.bms.Gigya_Canada_EN@735f7ae5</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_EN.Gigya_Canada_EN_Registartion()'><b>Gigya_Canada_EN_Registartion</b><br>Test class: com.automation.bms.Gigya_Canada_EN</td>
+<td></td>
+<td>66</td>
+<td>com.automation.bms.Gigya_Canada_EN@735f7ae5</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_FR.Gigya_Canada_FR_Change_Password()'><b>Gigya_Canada_FR_Change_Password</b><br>Test class: com.automation.bms.Gigya_Canada_FR</td>
+<td></td>
+<td>48</td>
+<td>com.automation.bms.Gigya_Canada_FR@180bc464</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_FR.Gigya_Canada_FR_Edit_Profile()'><b>Gigya_Canada_FR_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Canada_FR</td>
+<td></td>
+<td>39</td>
+<td>com.automation.bms.Gigya_Canada_FR@180bc464</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_FR.Gigya_Canada_FR_Login()'><b>Gigya_Canada_FR_Login</b><br>Test class: com.automation.bms.Gigya_Canada_FR</td>
+<td></td>
+<td>135</td>
+<td>com.automation.bms.Gigya_Canada_FR@180bc464</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Canada_FR.Gigya_Canada_FR_Registartion()'><b>Gigya_Canada_FR_Registartion</b><br>Test class: com.automation.bms.Gigya_Canada_FR</td>
+<td></td>
+<td>69</td>
+<td>com.automation.bms.Gigya_Canada_FR@180bc464</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Denmark.Gigya_Denmark_Change_Password()'><b>Gigya_Denmark_Change_Password</b><br>Test class: com.automation.bms.Gigya_Denmark</td>
+<td></td>
+<td>74</td>
+<td>com.automation.bms.Gigya_Denmark@1324409e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Denmark.Gigya_Denmark_Edit_Profile()'><b>Gigya_Denmark_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Denmark</td>
+<td></td>
+<td>75</td>
+<td>com.automation.bms.Gigya_Denmark@1324409e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Denmark.Gigya_Denmark_Login()'><b>Gigya_Denmark_Login</b><br>Test class: com.automation.bms.Gigya_Denmark</td>
+<td></td>
+<td>138</td>
+<td>com.automation.bms.Gigya_Denmark@1324409e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Denmark.Gigya_Denmark_Registartion()'><b>Gigya_Denmark_Registartion</b><br>Test class: com.automation.bms.Gigya_Denmark</td>
+<td></td>
+<td>104</td>
+<td>com.automation.bms.Gigya_Denmark@1324409e</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Germany.Gigya_Germany_Change_Password()'><b>Gigya_Germany_Change_Password</b><br>Test class: com.automation.bms.Gigya_Germany</td>
+<td></td>
+<td>117</td>
+<td>com.automation.bms.Gigya_Germany@2c6a3f77</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Germany.Gigya_Germany_DocChecker_Login()'><b>Gigya_Germany_DocChecker_Login</b><br>Test class: com.automation.bms.Gigya_Germany</td>
+<td></td>
+<td>231</td>
+<td>com.automation.bms.Gigya_Germany@2c6a3f77</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Germany.Gigya_Germany_Edit_Profile()'><b>Gigya_Germany_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Germany</td>
+<td></td>
+<td>123</td>
+<td>com.automation.bms.Gigya_Germany@2c6a3f77</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Germany.Gigya_Germany_Login()'><b>Gigya_Germany_Login</b><br>Test class: com.automation.bms.Gigya_Germany</td>
+<td></td>
+<td>124</td>
+<td>com.automation.bms.Gigya_Germany@2c6a3f77</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Germany.Gigya_Germany_Registartion()'><b>Gigya_Germany_Registartion</b><br>Test class: com.automation.bms.Gigya_Germany</td>
+<td></td>
+<td>128</td>
+<td>com.automation.bms.Gigya_Germany@2c6a3f77</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Latam.Gigya_Latam_Change_Password()'><b>Gigya_Latam_Change_Password</b><br>Test class: com.automation.bms.Gigya_Latam</td>
+<td></td>
+<td>43</td>
+<td>com.automation.bms.Gigya_Latam@62043840</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Latam.Gigya_Latam_Edit_Profile()'><b>Gigya_Latam_Edit_Profile</b><br>Test class: com.automation.bms.Gigya_Latam</td>
+<td></td>
+<td>37</td>
+<td>com.automation.bms.Gigya_Latam@62043840</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Latam.Gigya_Latam_Login()'><b>Gigya_Latam_Login</b><br>Test class: com.automation.bms.Gigya_Latam</td>
+<td></td>
+<td>134</td>
+<td>com.automation.bms.Gigya_Latam@62043840</td></tr>
+<tr>
+<td title='com.automation.bms.Gigya_Latam.Gigya_Latam_Registartion()'><b>Gigya_Latam_Registartion</b><br>Test class: com.automation.bms.Gigya_Latam</td>
+<td></td>
+<td>150</td>
+<td>com.automation.bms.Gigya_Latam@62043840</td></tr>
+</table><p>
+</body>
+</html>
