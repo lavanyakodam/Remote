@@ -1,11 +1,14 @@
 package com.automation.bms;
 
 import java.io.File;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.Test;
 
@@ -35,9 +38,22 @@ public class IEBasicAuthTest {
 				file.mkdirs();
 			}
 			System.out.println("Complete");
+
+			List<WebElement> list=driver.findElements(By.tagName("a"));
+			System.out.println(list.size());
+
+			for(WebElement link : list) {
+				try {
+					System.out.println(link.getText());
+				} catch (Exception e) {
+					continue;
+				}
+			}
+
+			driver.close();
 		}catch (Exception e) {
 			e.printStackTrace();
-			
+
 		}
 	}
 }
